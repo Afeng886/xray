@@ -25,7 +25,7 @@ install_xray() {
 	echo "安装 Xray..."
 	# 安装unzip工具
 	apt-get install unzip -y  || yum install unzip -y 
-	# wget http://test.qq548631.top/22/Xray-linux-64.zip 
+	wget https://github.com/Afeng886/xray/blob/main/Xray-linux-64.zip 
 	# 解压并安装Xray
 	unzip Xray-linux-64.zip 
 	mv xray /usr/local/bin/xrayL
